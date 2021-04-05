@@ -1,0 +1,36 @@
+Driver: GTiff/GeoTIFF
+Files: jotunheimen.tif
+Size is 3134, 3134
+Coordinate System is:
+PROJCS["WGS 84 / UTM zone 32N",
+ GEOGCS["WGS 84",
+ DATUM["WGS_1984",
+ SPHEROID["WGS 84",6378137,298.257223563,
+ AUTHORITY["EPSG","7030"]],
+ AUTHORITY["EPSG","6326"]],
+ PRIMEM["Greenwich",0],
+ UNIT["degree",0.0174532925199433],
+ AUTHORITY["EPSG","4326"]],
+ PROJECTION["Transverse_Mercator"],
+ PARAMETER["latitude_of_origin",0],
+ PARAMETER["central_meridian",9],
+ PARAMETER["scale_factor",0.9996],
+ PARAMETER["false_easting",500000],
+ PARAMETER["false_northing",0],
+ UNIT["metre",1,
+ AUTHORITY["EPSG","9001"]],
+ AUTHORITY["EPSG","32632"]]
+Origin = (432000.000000000000000,6850000.000000000000000)
+Pixel Size = (19.144862795149969,-19.144862795149969)
+Metadata:
+ AREA_OR_POINT=Area
+Image Structure Metadata:
+ INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left (432000.000, 6850000.000) (7d42'39.90"E, 61d46'36.81"N)
+Lower Left (432000.000, 6790000.000) (7d43'59.45"E, 61d14'18.21"N)
+Upper Right (492000.000, 6850000.000) (8d50'54.02"E, 61d46'58.29"N)
+Lower Right (492000.000, 6790000.000) (8d51'3.39"E, 61d14'39.21"N)
+Center      (462000.000, 6820000.000) (8d17'9.19"E, 61d30'42.34"N)
+Band 1 Block=3134x1 Type=Int16, ColorInterp=Gray
+    Computed Min/Max=15.000,2466.000
